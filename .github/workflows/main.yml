@@ -17,5 +17,5 @@ jobs:
 #         shell: pwsh
 #         run: C:\"Program Files"\Git\git-bash.exe C:\Users\YK.KWON\Desktop\test.sh
         run: |
-          echo "Hello from Git Bash!"
+          C:\"Program Files"\Git\git-bash.exe C:\Users\YK.KWON\Desktop\test.sh
 
