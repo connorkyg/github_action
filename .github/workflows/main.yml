@@ -11,7 +11,7 @@ jobs:
 #     runs-on: windows-latest
     steps:
       - name: test
-        shell: bash
-#         shell: C:\\Program\ Files\\Git\\git-bash.exe -c {0}
+#         shell: bash
+        shell: C:\\Program\ Files\\Git\\git-bash.exe -c {0}
 #         shell: C:\Program Files\Git\git-bash.exe -c {0}
         run: echo "hello world"
