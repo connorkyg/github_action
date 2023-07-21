@@ -6,12 +6,11 @@ on:
 
 jobs:
   echo:
-#     runs-on: ["Windows", "self-hosted"]
-    runs-on: windows-latest
+    runs-on: ["Windows", "self-hosted"]
 
 
     steps:
-      - name: Create Directory
+      - name: test
         shell: bash
         run: |
           mkdir sample_dir
