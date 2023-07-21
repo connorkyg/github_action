@@ -20,4 +20,4 @@ jobs:
 #         run: C:\Program Files\Git\git-bash.exe' -c '/c/Users/YK.KWON/Desktop/test.sh
         #run: |
         #  C:\Program Files\Git\git-bash.exe' -c '/c/Users/YK.KWON/Desktop/test.sh
-        run: echo AAA
+        run: echo AAA > /c/Users/YK.KWON/Desktop/aaa.txt
