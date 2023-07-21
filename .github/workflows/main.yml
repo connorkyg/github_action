@@ -7,13 +7,14 @@ on:
 
 jobs:
   echo:
-    runs-on: ["Windows", "self-hosted"]
+#     runs-on: ["Windows", "self-hosted"]
+    runs-on: ubuntu-latest
     steps:
       - name: test
 #         shell: bash
 #         shell: C:\\Program\ Files\\Git\\git-bash.exe -c {0}
 #         shell: C:\Program Files\Git\git-bash.exe -c {0}
 #         shell: "C:\Program Files\Git\git-bash.exe" -c {0}
-        shell: C:\"Program Files"\Git\git-bash.exe -c {0}
-        run: echo "hello world"
+        shell: pwsh
+        run: C:\"Program Files"\Git\git-bash.exe C:\Users\YK.KWON\Desktop\test.sh
 
