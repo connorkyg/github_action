@@ -16,4 +16,6 @@ jobs:
 #         shell: "C:\Program Files\Git\git-bash.exe" -c {0}
 #         shell: pwsh
 #         run: C:\"Program Files"\Git\git-bash.exe C:\Users\YK.KWON\Desktop\test.sh
-        run: Write-Host "Hello, PowerShell!"
+        run: |
+          echo "Hello from Git Bash!"
+
