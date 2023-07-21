@@ -10,6 +10,6 @@ jobs:
     runs-on: ["Windows", "self-hosted"]
     steps:
       - name: test
-        shell: "C:/Program Files/Git/bin/bash.exe {0}"
+        shell: "C:/Program Files/Git/git-bash.exe {0}"
         run: |
           mkdir sample_dir
