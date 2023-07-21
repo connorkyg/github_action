@@ -17,4 +17,4 @@ jobs:
 #         shell: pwsh
 #         run: C:\"Program Files"\Git\git-bash.exe C:\Users\YK.KWON\Desktop\test.sh
         run: |
-          C:\Program Files\Git\git-bash.exe' -c '/c/Users/YK.KWON/Desktop/test.sh
+          'C:\Program Files\Git\git-bash.exe' -c '/c/Users/YK.KWON/Desktop/test.sh'
