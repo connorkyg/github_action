@@ -12,6 +12,6 @@ jobs:
 
     steps:
       - name: Create Directory
-        shell: cmd
+        shell: bash
         run: |
-          echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+          mkdir sample_dir
