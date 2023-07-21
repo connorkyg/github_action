@@ -1,0 +1,17 @@
+name: Windows echo Workflow
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  echo:
+#     runs-on: ["Windows", "self-hosted"]
+    runs-on: windows-latest
+
+
+    steps:
+      - name: Create Directory
+        shell: cmd
+        run: |
+          echo aaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
