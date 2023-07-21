@@ -6,11 +6,12 @@ on:
       - main
 
 jobs:
-  echo:
+  please:
     runs-on: ["Windows", "self-hosted"]
     steps:
       - name: test
-        shell: C:\'Program Files'\Git\git-bash.EXE -c {0}
+        shell: C:/Program Files/Git/git-bash.EXE -c {0}
+#         shell: C:\'Program Files'\Git\git-bash.EXE -c {0}
 #         shell: bash
 #         shell: C:\\Program\ Files\\Git\\git-bash.exe -c {0}
 #         shell: C:\Program Files\Git\git-bash.exe -c {0}
