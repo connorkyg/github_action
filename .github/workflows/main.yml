@@ -13,4 +13,4 @@ jobs:
 #         run: uname > aaaaaaa.txt
         run: echo AAAAAAAAAAA
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop
-        shell: C:\Users\YK.KWON\Desktop\git-bash.exe {0}
+        shell: C:\Users\YK.KWON\Desktop\git-bash.exe -c {0}
