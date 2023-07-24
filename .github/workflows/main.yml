@@ -7,8 +7,8 @@ on:
 
 jobs:
   please:
-    runs-on: ["Windows", "self-hosted"]
+    runs-on: ["self-hosted", "Windows"]
     steps:
       - name: test
         run: uname > C:\Users\YK.KWON\Desktop\aaaaaaa.txt
-        shell: C:\"Program Files"\Git\usr\bin\git-bash.exe -c {0}
+        shell: C:\Program Files\Git\usr\bin\git-bash.exe {0}
