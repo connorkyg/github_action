@@ -11,11 +11,20 @@ jobs:
   please:
     runs-on: ["self-hosted", "Windows"]
     steps:
-      - name: test
-#         run: uname > aaaaaaa.txt
-#         run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
-#         run: uname > /mnt/c/Users/YK.KWON/Desktop
-        run: |
-          %ComSpec% /D /E:ON /V:OFF /S /C "CALL "wsl echo aaa > aaa.txt""
-          %ComSpec% /D /E:ON /V:OFF /S /C "CALL "wsl uname > bbb.txt""
-        shell: cmd
+      - name: git-bash
+        uses: pkg-src/github-action-git-bash@v1.1
+        with:
+          commands: |
+            uname
+            echo aaaa > aaaaaaa.txt
+            
+
+#     steps:
+#       - name: test
+# #         run: uname > aaaaaaa.txt
+# #         run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
+# #         run: uname > /mnt/c/Users/YK.KWON/Desktop
+#         run: |
+#           %ComSpec% /D /E:ON /V:OFF /S /C "CALL "wsl echo aaa > aaa.txt""
+#           %ComSpec% /D /E:ON /V:OFF /S /C "CALL "wsl uname > bbb.txt""
+#         shell: cmd
