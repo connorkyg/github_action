@@ -10,16 +10,5 @@ jobs:
     runs-on: ["Windows", "self-hosted"]
     steps:
       - name: test
-        shell: git-bash.exe -c {0}
-#         shell: C:/'Program Files'/Git/git-bash.EXE -c {0}
-#         shell: C:\'Program Files'\Git\git-bash.EXE -c {0}
-#         shell: bash
-#         shell: C:\\Program\ Files\\Git\\git-bash.exe -c {0}
-#         shell: C:\Program Files\Git\git-bash.exe -c {0}
-#         shell: "C:\Program Files\Git\git-bash.exe" -c {0}
-#         shell: pwsh
-#         run: C:\"Program Files"\Git\git-bash.exe C:\Users\YK.KWON\Desktop\test.sh
-#         run: C:\Program Files\Git\git-bash.exe' -c '/c/Users/YK.KWON/Desktop/test.sh
-        #run: |
-        #  C:\Program Files\Git\git-bash.exe' -c '/c/Users/YK.KWON/Desktop/test.sh
-        run: echo AAA > C:\Users\YK.KWON\Desktop\aaaaaaa.txt
+        run: uname > C:\Users\YK.KWON\Desktop\aaaaaaa.txt
+        shell: C:\"Program Files"\Git\usr\bin\git-bash.exe -c {0}
