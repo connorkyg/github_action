@@ -4,7 +4,9 @@ on:
   push:
     branches:
       - main
-
+env:
+  var: aaa
+  
 jobs:
   please:
     runs-on: ["self-hosted", "Windows"]
@@ -14,5 +16,6 @@ jobs:
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop
         run: |
-          %ComSpec% /D /E:ON /V:OFF /S /C "CALL "wsl uname > aaa.txt""
+          %ComSpec% /D /E:ON /V:OFF /S /C "CALL "wsl echo aaa > aaa.txt""
+          %ComSpec% /D /E:ON /V:OFF /S /C "CALL "wsl uname > bbb.txt""
         shell: cmd
