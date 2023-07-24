@@ -13,5 +13,6 @@ jobs:
 #         run: uname > aaaaaaa.txt
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop
-        run: uname
-        shell: bash
+        run: |
+          %ComSpec% /D /E:ON /V:OFF /S /C "CALL "wsl uname > aaa.txt""
+        shell: cmd
