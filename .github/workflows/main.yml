@@ -11,6 +11,7 @@ jobs:
     steps:
       - name: test
 #         run: uname > aaaaaaa.txt
-        run: echo AAAAAAAAAAA
+        run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop
-        shell: C:\Users\YK.KWON\Desktop\git-bash.exe -c {0}
+        shell: bash
+        
