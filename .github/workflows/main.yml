@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: test
 #         run: uname > aaaaaaa.txt
-        run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
+#         run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop
-        shell: bash
-        
+        run: wsl uname > C:\Users\YK.KWON\Desktop\git-bash\aaaa.txt
+#         shell: wsl
