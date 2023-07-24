@@ -14,4 +14,3 @@ jobs:
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop
         run: wsl uname > C:\actions-runner\TMP\aaaa.txt
-#         shell: wsl
