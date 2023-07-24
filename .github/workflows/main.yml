@@ -10,6 +10,7 @@ jobs:
     runs-on: ["self-hosted", "Windows"]
     steps:
       - name: test
-        run: uname > aaaaaaa.txt
+#         run: uname > aaaaaaa.txt
+        run: echo AAAAAAAAAAA
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop
         shell: C:\Users\YK.KWON\Desktop\git-bash.exe {0}
