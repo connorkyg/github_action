@@ -13,5 +13,5 @@ jobs:
 #         run: uname > aaaaaaa.txt
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop/aaaa.txt
 #         run: uname > /mnt/c/Users/YK.KWON/Desktop
-        run: wsl uname > C:\Users\YK.KWON\Desktop\git-bash\aaaa.txt
+        run: wsl uname > C:\actions-runner\TMP\aaaa.txt
 #         shell: wsl
